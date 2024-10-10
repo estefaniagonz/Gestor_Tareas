@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    height: 600px;
+}
+
+.background {
+    background: linear-gradient(to bottom left, #1f54ff,#013af7, #7e10e6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; 
+    height: 50%;
+}
+
+.header {
+    position: relative; 
+    z-index: 1; 
+    padding: 50px;
+    padding-left: 100px; 
+}
+
+.title {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+.subTitle {
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
