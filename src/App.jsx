@@ -1,6 +1,6 @@
 import React from "react";
 import Header from './components/Header/Header'; 
-import TaskInput from "./components/Header/TaskInput/TaskInput";
+import TaskInput from "./components/TaskInput/TaskInput";
 import ('./App.css')
 
 const App = () => {
