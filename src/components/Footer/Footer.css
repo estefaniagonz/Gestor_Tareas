@@ -1,0 +1,50 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    width: 50%;
+    background-color: white;
+    font-size: 14px;
+    border-top: 1px solid #e0e0e0;
+    margin-left: 60px;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .todo-count {
+    color: #303030;
+  }
+  
+  .filters {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .filters li {
+    margin-right: 10px;
+  }
+  
+  .filter-link {
+    text-decoration: none;
+    color: #757575;
+    cursor: pointer;
+  }
+  
+  .filter-link:hover {
+    text-decoration: underline;
+  }
+  
+  .clear-completed {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #757575;
+    font-size: 14px;
+  }
+  
+  .clear-completed:hover {
+    text-decoration: underline;
+  }
+  
