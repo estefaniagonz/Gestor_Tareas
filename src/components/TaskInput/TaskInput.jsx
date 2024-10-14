@@ -17,7 +17,7 @@ const TaskInput = ({addTask})=>{
         <form  className="form"onSubmit={handleSubmit}>
           <input
             className="new-todo"
-            placeholder ="Type new todo"
+            placeholder="Type new todo"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
             autoFocus
@@ -26,4 +26,6 @@ const TaskInput = ({addTask})=>{
       );
 };
 
+
 export default TaskInput; 
+
