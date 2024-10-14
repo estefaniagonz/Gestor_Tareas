@@ -26,4 +26,6 @@ const TaskInput = ({addTask})=>{
       );
 };
 
-export default TaskInput;
+
+export default TaskInput; 
+
