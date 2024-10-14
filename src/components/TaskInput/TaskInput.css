@@ -1,0 +1,27 @@
+.new-todo {
+    width: 52.5%;
+    padding: 13px;
+    font-size: 1.1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+    position: relative;
+
+}
+
+.form{
+    padding-left: 60px;
+    width: 60%;
+    padding: 15px;
+    font-size: 1.1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.form{
+    padding-left: 55px;
+}
