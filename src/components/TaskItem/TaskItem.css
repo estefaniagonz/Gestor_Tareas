@@ -1,5 +1,42 @@
+.todo-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.view {
+  display: flex;
+  align-items: center;
+}
+
+.toggle {
+  margin-right: 10px;
+}
+
+.destroy {
+  display: none;
+  position: relative;
+  background: none;
+  margin-left: 500px;
+  border: none;
+  color: #da7e7e;
+  cursor: pointer;
+}
+
+.todo-item:hover .destroy {
+  display: block;
+}
+
 .completed {
-    text-decoration: line-through; 
-    color: #616161; 
-  }
-  
+  text-decoration: line-through;
+  color: #616161;
+}
+
+.edit {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
