@@ -10,7 +10,7 @@ const Footer = ({ pendingTasksCount, clearCompleted, hasCompletedTasks, setFilte
       </span>
       <ul className="filters">
         <li>
-          <Link to="/" className="filter-link" onClick={() => setFilter('all')}>
+          <Link to="/" className="filter-link-all" onClick={() => setFilter('all')}>
             All
           </Link>
         </li>

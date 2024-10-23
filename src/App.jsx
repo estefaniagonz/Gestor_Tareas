@@ -9,16 +9,19 @@ import './App.css';
 const App = () => {
   const [tasks, setTasks] = useState([]);
   const [filter, setFilter] = useState('all');
+  const [isLoaded, setIsLoaded] = useState(false); 
 
   useEffect(() => {
     const storedTasks = JSON.parse(localStorage.getItem('mydayapp-reactjs') || '[]');
     setTasks(storedTasks);
+    setIsLoaded(true);  
   }, []);
 
   useEffect(() => {
-    localStorage.setItem('mydayapp-reactjs', JSON.stringify(tasks));
-  }, [tasks]);
-
+    if (isLoaded) {  
+      localStorage.setItem('mydayapp-reactjs', JSON.stringify(tasks));
+    }
+  }, [tasks, isLoaded]);
 
   const addTask = (title) => {
     setTasks([...tasks, { id: Date.now().toString(), title, completed: false }]);
