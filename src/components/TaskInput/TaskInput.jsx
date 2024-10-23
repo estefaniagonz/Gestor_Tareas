@@ -6,7 +6,7 @@ const TaskInput = ({addTask})=>{
 
     const handleSubmit =(e)=>{
         e.preventDefault();
-        if (title.trim){
+        if (title.trim(){
             addTask(title.trim());
             setTitle ('');
         }
